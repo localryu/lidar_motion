@@ -45,11 +45,11 @@
     <remap from="/detection/objects"       to="$(arg tracker_output_topic)" />
   </node>
 
-<!-- 
+
   <node pkg="detected_objects_visualizer" type="visualize_detected_objects" name="ukf_track_visualization_01"
         output="screen" ns="$(arg namespace)"/>
   <node pkg="topic_tools" type="relay" name="ukf_track_relay_01"
         output="screen" args="$(arg namespace)/objects /detection/objects"/>
--->
+
 
 </launch>

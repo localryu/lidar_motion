@@ -1,0 +1,197 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CENTROID_DISTANCE	include/imm_ukf_pda.h	/^  const double CENTROID_DISTANCE = 0.2;\/\/distance to consider centroids the same$/;"	m	class:ImmUkfPda
+ImmUkfPda	include/imm_ukf_pda.h	/^class ImmUkfPda$/;"	c
+ImmUkfPda	src/imm_ukf_pda.cpp	/^ImmUkfPda::ImmUkfPda()$/;"	f	class:ImmUkfPda
+OBJECT_TRACKING_IMM_UKF_JPDAF_H	include/imm_ukf_pda.h	18;"	d
+OBJECT_TRACKING_UKF_H	include/ukf.h	18;"	d
+UKF	include/ukf.h	/^class UKF$/;"	c
+UKF	src/ukf.cpp	/^UKF::UKF()$/;"	f	class:UKF
+VPoint	include/imm_ukf_pda.h	/^typedef pcl::PointXYZ VPoint;$/;"	t
+VPointCloud	include/imm_ukf_pda.h	/^typedef pcl::PointCloud<VPoint> VPointCloud;$/;"	t
+arePointsClose	src/imm_ukf_pda.cpp	/^ImmUkfPda::arePointsClose(const geometry_msgs::Point& in_point_a,$/;"	f	class:ImmUkfPda
+arePointsEqual	src/imm_ukf_pda.cpp	/^ImmUkfPda::arePointsEqual(const geometry_msgs::Point& in_point_a,$/;"	f	class:ImmUkfPda
+buf	include/imm_ukf_pda.h	/^  char buf[256];$/;"	m	class:ImmUkfPda
+calculateNIS	src/ukf.cpp	/^double UKF::calculateNIS(const autoware_msgs::DetectedObject& in_object, const int motion_ind)$/;"	f	class:UKF
+callback	src/imm_ukf_pda.cpp	/^void ImmUkfPda::callback(const autoware_msgs::DetectedObjectArray& input)$/;"	f	class:ImmUkfPda
+checkLaneDirectionAvailability	src/ukf.cpp	/^void UKF::checkLaneDirectionAvailability(const autoware_msgs::DetectedObject& in_object,$/;"	f	class:UKF
+ctrv	src/ukf.cpp	/^void UKF::ctrv(const double p_x, const double p_y, const double v, const double yaw, const double yawd,$/;"	f	class:UKF
+ctrv_meas_	include/ukf.h	/^  Eigen::VectorXd ctrv_meas_;$/;"	m	class:UKF
+cv	src/ukf.cpp	/^void UKF::cv(const double p_x, const double p_y, const double v, const double yaw, const double yawd,$/;"	f	class:UKF
+cv_meas_	include/ukf.h	/^  Eigen::VectorXd cv_meas_;$/;"	m	class:UKF
+detection_probability_	include/imm_ukf_pda.h	/^  double detection_probability_;$/;"	m	class:ImmUkfPda
+dumpResultText	src/imm_ukf_pda.cpp	/^void ImmUkfPda::dumpResultText(autoware_msgs::DetectedObjectArray& detected_objects)$/;"	f	class:ImmUkfPda
+findMaxZandS	src/ukf.cpp	/^void UKF::findMaxZandS(Eigen::VectorXd& max_det_z, Eigen::MatrixXd& max_det_s)$/;"	f	class:UKF
+frame_count_	include/imm_ukf_pda.h	/^  int frame_count_;$/;"	m	class:ImmUkfPda
+gate_probability_	include/imm_ukf_pda.h	/^  double gate_probability_;$/;"	m	class:ImmUkfPda
+gating_thres_	include/imm_ukf_pda.h	/^  double gating_thres_;$/;"	m	class:ImmUkfPda
+has_subscribed_vectormap_	include/imm_ukf_pda.h	/^  bool has_subscribed_vectormap_;$/;"	m	class:ImmUkfPda
+initCovarQs	src/ukf.cpp	/^void UKF::initCovarQs(const double dt, const double yaw)$/;"	f	class:UKF
+initTracker	src/imm_ukf_pda.cpp	/^void ImmUkfPda::initTracker(const autoware_msgs::DetectedObjectArray& input, double timestamp)$/;"	f	class:ImmUkfPda
+init_	include/imm_ukf_pda.h	/^  bool init_;$/;"	m	class:ImmUkfPda
+init_meas_	include/ukf.h	/^  Eigen::VectorXd init_meas_;$/;"	m	class:UKF
+initialize	src/ukf.cpp	/^void UKF::initialize(const Eigen::VectorXd& z, const double timestamp, const int target_id)$/;"	f	class:UKF
+input_header_	include/imm_ukf_pda.h	/^  std_msgs::Header input_header_;$/;"	m	class:ImmUkfPda
+input_topic_	include/imm_ukf_pda.h	/^  std::string input_topic_;$/;"	m	class:ImmUkfPda
+interaction	src/ukf.cpp	/^void UKF::interaction()$/;"	f	class:UKF
+isLaneDirectionAvailable	src/ukf.cpp	/^bool UKF::isLaneDirectionAvailable(const autoware_msgs::DetectedObject& in_object, const int motion_ind,$/;"	f	class:UKF
+isPointInPool	src/imm_ukf_pda.cpp	/^ImmUkfPda::isPointInPool(const std::vector<geometry_msgs::Point>& in_pool,$/;"	f	class:ImmUkfPda
+is_benchmark_	include/imm_ukf_pda.h	/^  bool is_benchmark_;$/;"	m	class:ImmUkfPda
+is_direction_ctrv_available_	include/ukf.h	/^  bool is_direction_ctrv_available_;$/;"	m	class:UKF
+is_direction_cv_available_	include/ukf.h	/^  bool is_direction_cv_available_;$/;"	m	class:UKF
+is_direction_rm_available_	include/ukf.h	/^  bool is_direction_rm_available_;$/;"	m	class:UKF
+is_stable_	include/ukf.h	/^  bool is_stable_;$/;"	m	class:UKF
+is_static_	include/ukf.h	/^  bool is_static_;$/;"	m	class:UKF
+k_ctrv_	include/ukf.h	/^  Eigen::MatrixXd k_ctrv_;$/;"	m	class:UKF
+k_cv_	include/ukf.h	/^  Eigen::MatrixXd k_cv_;$/;"	m	class:UKF
+k_lidar_direction_ctrv_	include/ukf.h	/^  Eigen::MatrixXd k_lidar_direction_ctrv_;$/;"	m	class:UKF
+k_lidar_direction_cv_	include/ukf.h	/^  Eigen::MatrixXd k_lidar_direction_cv_;$/;"	m	class:UKF
+k_lidar_direction_rm_	include/ukf.h	/^  Eigen::MatrixXd k_lidar_direction_rm_;$/;"	m	class:UKF
+k_rm_	include/ukf.h	/^  Eigen::MatrixXd k_rm_;$/;"	m	class:UKF
+kitti_data_dir_	include/imm_ukf_pda.h	/^  std::string kitti_data_dir_;$/;"	m	class:ImmUkfPda
+label_	include/ukf.h	/^  std::string label_;$/;"	m	class:UKF
+lambda_	include/ukf.h	/^  double lambda_;$/;"	m	class:UKF
+lidar_direction_ctrv_meas_	include/ukf.h	/^  Eigen::VectorXd lidar_direction_ctrv_meas_;$/;"	m	class:UKF
+lidar_direction_r_ctrv_	include/ukf.h	/^  Eigen::MatrixXd lidar_direction_r_ctrv_;$/;"	m	class:UKF
+lidar_direction_r_cv_	include/ukf.h	/^  Eigen::MatrixXd lidar_direction_r_cv_;$/;"	m	class:UKF
+lidar_direction_r_rm_	include/ukf.h	/^  Eigen::MatrixXd lidar_direction_r_rm_;$/;"	m	class:UKF
+life_time_thres_	include/imm_ukf_pda.h	/^  int life_time_thres_;$/;"	m	class:ImmUkfPda
+lifetime_	include/ukf.h	/^  int lifetime_;$/;"	m	class:UKF
+main	src/imm_ukf_pda_main.cpp	/^int main(int argc, char** argv)$/;"	f
+makeNewTargets	src/imm_ukf_pda.cpp	/^void ImmUkfPda::makeNewTargets(const double timestamp, const autoware_msgs::DetectedObjectArray& input,$/;"	f	class:ImmUkfPda
+makeOutput	src/imm_ukf_pda.cpp	/^void ImmUkfPda::makeOutput(const autoware_msgs::DetectedObjectArray& input,$/;"	f	class:ImmUkfPda
+measurementValidation	src/imm_ukf_pda.cpp	/^void ImmUkfPda::measurementValidation(const autoware_msgs::DetectedObjectArray& input, UKF& target,$/;"	f	class:ImmUkfPda
+mergeEstimationAndCovariance	src/ukf.cpp	/^void UKF::mergeEstimationAndCovariance()$/;"	f	class:UKF
+merge_distance_threshold_	include/imm_ukf_pda.h	/^  double merge_distance_threshold_;$/;"	m	class:ImmUkfPda
+min_assiciation_distance_	include/ukf.h	/^  double min_assiciation_distance_;$/;"	m	class:UKF
+mixingProbability	src/ukf.cpp	/^void UKF::mixingProbability()$/;"	f	class:UKF
+mode_match_prob_ctrv2ctrv_	include/ukf.h	/^  double mode_match_prob_ctrv2ctrv_;$/;"	m	class:UKF
+mode_match_prob_ctrv2cv_	include/ukf.h	/^  double mode_match_prob_ctrv2cv_;$/;"	m	class:UKF
+mode_match_prob_ctrv2rm_	include/ukf.h	/^  double mode_match_prob_ctrv2rm_;$/;"	m	class:UKF
+mode_match_prob_ctrv_	include/ukf.h	/^  double mode_match_prob_ctrv_;$/;"	m	class:UKF
+mode_match_prob_cv2ctrv_	include/ukf.h	/^  double mode_match_prob_cv2ctrv_;$/;"	m	class:UKF
+mode_match_prob_cv2cv_	include/ukf.h	/^  double mode_match_prob_cv2cv_;$/;"	m	class:UKF
+mode_match_prob_cv2rm_	include/ukf.h	/^  double mode_match_prob_cv2rm_;$/;"	m	class:UKF
+mode_match_prob_cv_	include/ukf.h	/^  double mode_match_prob_cv_;$/;"	m	class:UKF
+mode_match_prob_rm2ctrv_	include/ukf.h	/^  double mode_match_prob_rm2ctrv_;$/;"	m	class:UKF
+mode_match_prob_rm2cv_	include/ukf.h	/^  double mode_match_prob_rm2cv_;$/;"	m	class:UKF
+mode_match_prob_rm2rm_	include/ukf.h	/^  double mode_match_prob_rm2rm_;$/;"	m	class:UKF
+mode_match_prob_rm_	include/ukf.h	/^  double mode_match_prob_rm_;$/;"	m	class:UKF
+mode_prob_ctrv_	include/ukf.h	/^  double mode_prob_ctrv_;$/;"	m	class:UKF
+mode_prob_cv_	include/ukf.h	/^  double mode_prob_cv_;$/;"	m	class:UKF
+mode_prob_rm_	include/ukf.h	/^  double mode_prob_rm_;$/;"	m	class:UKF
+new_s_ctrv_	include/ukf.h	/^  Eigen::MatrixXd new_s_ctrv_;$/;"	m	class:UKF
+new_s_cv_	include/ukf.h	/^  Eigen::MatrixXd new_s_cv_;$/;"	m	class:UKF
+new_s_rm_	include/ukf.h	/^  Eigen::MatrixXd new_s_rm_;$/;"	m	class:UKF
+new_x_sig_ctrv_	include/ukf.h	/^  Eigen::MatrixXd new_x_sig_ctrv_;$/;"	m	class:UKF
+new_x_sig_cv_	include/ukf.h	/^  Eigen::MatrixXd new_x_sig_cv_;$/;"	m	class:UKF
+new_x_sig_rm_	include/ukf.h	/^  Eigen::MatrixXd new_x_sig_rm_;$/;"	m	class:UKF
+new_z_pred_ctrv_	include/ukf.h	/^  Eigen::VectorXd new_z_pred_ctrv_;$/;"	m	class:UKF
+new_z_pred_cv_	include/ukf.h	/^  Eigen::VectorXd new_z_pred_cv_;$/;"	m	class:UKF
+new_z_pred_rm_	include/ukf.h	/^  Eigen::VectorXd new_z_pred_rm_;$/;"	m	class:UKF
+new_z_sig_ctrv_	include/ukf.h	/^  Eigen::MatrixXd new_z_sig_ctrv_;$/;"	m	class:UKF
+new_z_sig_cv_	include/ukf.h	/^  Eigen::MatrixXd new_z_sig_cv_;$/;"	m	class:UKF
+new_z_sig_rm_	include/ukf.h	/^  Eigen::MatrixXd new_z_sig_rm_;$/;"	m	class:UKF
+nis_ctrv_	include/ukf.h	/^  double nis_ctrv_;$/;"	m	class:UKF
+nis_cv_	include/ukf.h	/^  double nis_cv_;$/;"	m	class:UKF
+nis_rm_	include/ukf.h	/^  double nis_rm_;$/;"	m	class:UKF
+node_handle_	include/imm_ukf_pda.h	/^  ros::NodeHandle node_handle_;$/;"	m	class:ImmUkfPda
+normalizeAngle	src/ukf.cpp	/^double UKF::normalizeAngle(const double angle)$/;"	f	class:UKF
+num_lidar_direction_state_	include/ukf.h	/^  int num_lidar_direction_state_;$/;"	m	class:UKF
+num_lidar_state_	include/ukf.h	/^  int num_lidar_state_;$/;"	m	class:UKF
+num_motion_model_	include/ukf.h	/^  int num_motion_model_;$/;"	m	class:UKF
+num_state_	include/ukf.h	/^  int num_state_;$/;"	m	class:UKF
+object_	include/ukf.h	/^  autoware_msgs::DetectedObject object_;$/;"	m	class:UKF
+output_topic_	include/imm_ukf_pda.h	/^  std::string output_topic_;$/;"	m	class:ImmUkfPda
+p1_	include/ukf.h	/^  std::vector<double> p1_;$/;"	m	class:UKF
+p2_	include/ukf.h	/^  std::vector<double> p2_;$/;"	m	class:UKF
+p3_	include/ukf.h	/^  std::vector<double> p3_;$/;"	m	class:UKF
+p_ctrv_	include/ukf.h	/^  Eigen::MatrixXd p_ctrv_;$/;"	m	class:UKF
+p_cv_	include/ukf.h	/^  Eigen::MatrixXd p_cv_;$/;"	m	class:UKF
+p_merge_	include/ukf.h	/^  Eigen::MatrixXd p_merge_;$/;"	m	class:UKF
+p_rm_	include/ukf.h	/^  Eigen::MatrixXd p_rm_;$/;"	m	class:UKF
+pd_	include/ukf.h	/^  double pd_;$/;"	m	class:UKF
+pg_	include/ukf.h	/^  double pg_;$/;"	m	class:UKF
+prediction	src/ukf.cpp	/^void UKF::prediction(const bool use_sukf, const bool has_subscribed_vectormap, const double dt)$/;"	f	class:UKF
+predictionIMMUKF	src/ukf.cpp	/^void UKF::predictionIMMUKF(const double dt, const bool has_subscribed_vectormap)$/;"	f	class:UKF
+predictionLidarMeasurement	src/ukf.cpp	/^void UKF::predictionLidarMeasurement(const int motion_ind, const int num_meas_state)$/;"	f	class:UKF
+predictionMotion	src/ukf.cpp	/^void UKF::predictionMotion(const double delta_t, const int model_ind)$/;"	f	class:UKF
+predictionSUKF	src/ukf.cpp	/^void UKF::predictionSUKF(const double dt, const bool has_subscribed_vectormap)$/;"	f	class:UKF
+prevent_explosion_thres_	include/imm_ukf_pda.h	/^  double prevent_explosion_thres_;$/;"	m	class:ImmUkfPda
+private_nh_	include/imm_ukf_pda.h	/^  ros::NodeHandle private_nh_;$/;"	m	class:ImmUkfPda
+probabilisticDataAssociation	src/imm_ukf_pda.cpp	/^bool ImmUkfPda::probabilisticDataAssociation(const autoware_msgs::DetectedObjectArray& input, const double dt,$/;"	f	class:ImmUkfPda
+pub_object_array_	include/imm_ukf_pda.h	/^  ros::Publisher pub_object_array_;$/;"	m	class:ImmUkfPda
+pub_object_center_	include/imm_ukf_pda.h	/^  ros::Publisher pub_object_center_;$/;"	m	class:ImmUkfPda
+q_ctrv_	include/ukf.h	/^  Eigen::MatrixXd q_ctrv_;$/;"	m	class:UKF
+q_cv_	include/ukf.h	/^  Eigen::MatrixXd q_cv_;$/;"	m	class:UKF
+q_rm_	include/ukf.h	/^  Eigen::MatrixXd q_rm_;$/;"	m	class:UKF
+r_ctrv_	include/ukf.h	/^  Eigen::MatrixXd r_ctrv_;$/;"	m	class:UKF
+r_cv_	include/ukf.h	/^  Eigen::MatrixXd r_cv_;$/;"	m	class:UKF
+r_rm_	include/ukf.h	/^  Eigen::MatrixXd r_rm_;$/;"	m	class:UKF
+randomMotion	src/ukf.cpp	/^void UKF::randomMotion(const double p_x, const double p_y, const double v, const double yaw, const double yawd,$/;"	f	class:UKF
+removeRedundantObjects	src/imm_ukf_pda.cpp	/^ImmUkfPda::removeRedundantObjects(const autoware_msgs::DetectedObjectArray& in_detected_objects,$/;"	f	class:ImmUkfPda
+removeUnnecessaryTarget	src/imm_ukf_pda.cpp	/^void ImmUkfPda::removeUnnecessaryTarget()$/;"	f	class:ImmUkfPda
+result_file_path_	include/imm_ukf_pda.h	/^  std::string result_file_path_;$/;"	m	class:ImmUkfPda
+rm_meas_	include/ukf.h	/^  Eigen::VectorXd rm_meas_;$/;"	m	class:UKF
+run	src/imm_ukf_pda.cpp	/^void ImmUkfPda::run()$/;"	f	class:ImmUkfPda
+s_ctrv_	include/ukf.h	/^  Eigen::MatrixXd s_ctrv_;$/;"	m	class:UKF
+s_cv_	include/ukf.h	/^  Eigen::MatrixXd s_cv_;$/;"	m	class:UKF
+s_lidar_direction_ctrv_	include/ukf.h	/^  Eigen::MatrixXd s_lidar_direction_ctrv_;$/;"	m	class:UKF
+s_lidar_direction_cv_	include/ukf.h	/^  Eigen::MatrixXd s_lidar_direction_cv_;$/;"	m	class:UKF
+s_lidar_direction_rm_	include/ukf.h	/^  Eigen::MatrixXd s_lidar_direction_rm_;$/;"	m	class:UKF
+s_rm_	include/ukf.h	/^  Eigen::MatrixXd s_rm_;$/;"	m	class:UKF
+secondInit	src/imm_ukf_pda.cpp	/^void ImmUkfPda::secondInit(UKF& target, const std::vector<autoware_msgs::DetectedObject>& object_vec, double dt)$/;"	f	class:ImmUkfPda
+staticClassification	src/imm_ukf_pda.cpp	/^void ImmUkfPda::staticClassification()$/;"	f	class:ImmUkfPda
+static_num_history_thres_	include/imm_ukf_pda.h	/^  int static_num_history_thres_;$/;"	m	class:ImmUkfPda
+static_velocity_thres_	include/imm_ukf_pda.h	/^  double static_velocity_thres_;$/;"	m	class:ImmUkfPda
+std_a_ctrv_	include/ukf.h	/^  double std_a_ctrv_;$/;"	m	class:UKF
+std_a_cv_	include/ukf.h	/^  double std_a_cv_;$/;"	m	class:UKF
+std_a_rm_	include/ukf.h	/^  double std_a_rm_;$/;"	m	class:UKF
+std_ctrv_yawdd_	include/ukf.h	/^  double std_ctrv_yawdd_;$/;"	m	class:UKF
+std_cv_yawdd_	include/ukf.h	/^  double std_cv_yawdd_;$/;"	m	class:UKF
+std_lane_direction_	include/ukf.h	/^  double std_lane_direction_;$/;"	m	class:UKF
+std_laspx_	include/ukf.h	/^  double std_laspx_;$/;"	m	class:UKF
+std_laspy_	include/ukf.h	/^  double std_laspy_;$/;"	m	class:UKF
+std_rm_yawdd_	include/ukf.h	/^  double std_rm_yawdd_;$/;"	m	class:UKF
+sub_detected_array_	include/imm_ukf_pda.h	/^  ros::Subscriber sub_detected_array_;$/;"	m	class:ImmUkfPda
+target_id_	include/imm_ukf_pda.h	/^  int target_id_;$/;"	m	class:ImmUkfPda
+targets_	include/imm_ukf_pda.h	/^  std::vector<UKF> targets_;$/;"	m	class:ImmUkfPda
+time_	include/ukf.h	/^  long long time_;$/;"	m	class:UKF
+timestamp_	include/imm_ukf_pda.h	/^  double timestamp_;$/;"	m	class:ImmUkfPda
+tracker	src/imm_ukf_pda.cpp	/^void ImmUkfPda::tracker(const autoware_msgs::DetectedObjectArray& input,$/;"	f	class:ImmUkfPda
+tracking_num_	include/ukf.h	/^  int tracking_num_;$/;"	m	class:UKF
+ukf_id_	include/ukf.h	/^  int ukf_id_;$/;"	m	class:UKF
+update	src/ukf.cpp	/^void UKF::update(const bool use_sukf, const double detection_probability, const double gate_probability,$/;"	f	class:UKF
+updateBehaviorState	src/imm_ukf_pda.cpp	/^void ImmUkfPda::updateBehaviorState(const UKF& target, autoware_msgs::DetectedObject& object)$/;"	f	class:ImmUkfPda
+updateEachMotion	src/ukf.cpp	/^void UKF::updateEachMotion(const double detection_probability, const double gate_probability, const double gating_thres,$/;"	f	class:UKF
+updateIMMUKF	src/ukf.cpp	/^void UKF::updateIMMUKF(const double detection_probability, const double gate_probability, const double gating_thres,$/;"	f	class:UKF
+updateKalmanGain	src/ukf.cpp	/^void UKF::updateKalmanGain(const int motion_ind)$/;"	f	class:UKF
+updateMeasurementForCTRV	src/ukf.cpp	/^void UKF::updateMeasurementForCTRV(const std::vector<autoware_msgs::DetectedObject>& object_vec)$/;"	f	class:UKF
+updateModeProb	src/ukf.cpp	/^void UKF::updateModeProb(const std::vector<double>& lambda_vec)$/;"	f	class:UKF
+updateSUKF	src/ukf.cpp	/^void UKF::updateSUKF(const std::vector<autoware_msgs::DetectedObject>& object_vec)$/;"	f	class:UKF
+updateTargetWithAssociatedObject	src/imm_ukf_pda.cpp	/^void ImmUkfPda::updateTargetWithAssociatedObject(const std::vector<autoware_msgs::DetectedObject>& object_vec,$/;"	f	class:ImmUkfPda
+updateTrackingNum	src/imm_ukf_pda.cpp	/^void ImmUkfPda::updateTrackingNum(const std::vector<autoware_msgs::DetectedObject>& object_vec, UKF& target)$/;"	f	class:ImmUkfPda
+updateYawWithHighProb	src/ukf.cpp	/^void UKF::updateYawWithHighProb()$/;"	f	class:UKF
+uppateForCTRV	src/ukf.cpp	/^void UKF::uppateForCTRV()$/;"	f	class:UKF
+use_sukf_	include/imm_ukf_pda.h	/^  bool use_sukf_;$/;"	m	class:ImmUkfPda
+vel_history_	include/ukf.h	/^  std::vector<double> vel_history_;$/;"	m	class:UKF
+weights_c_	include/ukf.h	/^  Eigen::VectorXd weights_c_;$/;"	m	class:UKF
+weights_s_	include/ukf.h	/^  Eigen::VectorXd weights_s_;$/;"	m	class:UKF
+x_ctrv_	include/ukf.h	/^  Eigen::MatrixXd x_ctrv_;$/;"	m	class:UKF
+x_cv_	include/ukf.h	/^  Eigen::MatrixXd x_cv_;$/;"	m	class:UKF
+x_merge_	include/ukf.h	/^  Eigen::MatrixXd x_merge_;$/;"	m	class:UKF
+x_merge_yaw_	include/ukf.h	/^  double x_merge_yaw_;$/;"	m	class:UKF
+x_rm_	include/ukf.h	/^  Eigen::MatrixXd x_rm_;$/;"	m	class:UKF
+x_sig_pred_ctrv_	include/ukf.h	/^  Eigen::MatrixXd x_sig_pred_ctrv_;$/;"	m	class:UKF
+x_sig_pred_cv_	include/ukf.h	/^  Eigen::MatrixXd x_sig_pred_cv_;$/;"	m	class:UKF
+x_sig_pred_rm_	include/ukf.h	/^  Eigen::MatrixXd x_sig_pred_rm_;$/;"	m	class:UKF
+z_pred_ctrv_	include/ukf.h	/^  Eigen::VectorXd z_pred_ctrv_;$/;"	m	class:UKF
+z_pred_cv_	include/ukf.h	/^  Eigen::VectorXd z_pred_cv_;$/;"	m	class:UKF
+z_pred_lidar_direction_ctrv_	include/ukf.h	/^  Eigen::VectorXd z_pred_lidar_direction_ctrv_;$/;"	m	class:UKF
+z_pred_lidar_direction_cv_	include/ukf.h	/^  Eigen::VectorXd z_pred_lidar_direction_cv_;$/;"	m	class:UKF
+z_pred_lidar_direction_rm_	include/ukf.h	/^  Eigen::VectorXd z_pred_lidar_direction_rm_;$/;"	m	class:UKF
+z_pred_rm_	include/ukf.h	/^  Eigen::VectorXd z_pred_rm_;$/;"	m	class:UKF

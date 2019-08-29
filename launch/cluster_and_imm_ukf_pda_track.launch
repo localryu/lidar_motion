@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find seong_lidar_euclidean_cluster_detect)/launch/lidar_euclidean_cluster_detect.launch"/>
+  <include file="$(find seong_imm_ukf_pda_track)/launch/imm_ukf_pda_track.launch"/>
+</launch>
